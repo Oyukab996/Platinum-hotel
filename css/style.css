@@ -1,0 +1,262 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Үндсэн стайл */
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+h1,h2,h3 {
+    padding-bottom: 20px;
+}
+p{
+    margin-top: 10px 0;
+}
+/* Utility class tsesni hudulguun */
+/* ene ni haana ch ashiglah bolomjtoi class */
+   .container{
+       margin: auto;
+       max-width: 1300px;
+       overflow: auto;
+       padding: 0 10px;
+   }
+   .text-primary{
+       color: #f7c08a;
+   }
+/* Menu style */
+#navbar {
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a {
+    color: #fff;
+}
+#navbar .logo {
+    float: left;
+    padding-top: 20px; 
+}
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+#navbar ul li {
+    float:left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+/* Active haragduulahiin tuld current class nemsen */
+
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+    background: #444;
+    color:#f7c08a;
+}
+
+.lead {
+    font-size: 20px;
+}
+.btn{
+    color: #f7c08a;
+    display:inline-block;
+    font-size: 18px;
+    background-color: rgba(52, 49, 49, 0.503);
+    padding: 13px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #f7c18ab0;
+    color: rgba(0, 0, 0, 0.744)   
+}
+.btn-light{
+    background-color: #f7c18ab1;
+    color: #333;
+   
+}
+ 
+header.sticky {
+    background-color: #a19e9c;
+    border-bottom: 1px solid #f4f4f4;
+    padding: 12px;
+}
+ /* 3 hesegt huwaasan background ungu */
+ .bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-dark {
+     background: #333;
+     color: white;
+ }
+.bg-primary {
+    background:#f7c18a ;
+    color:#333;
+}
+
+.clr{
+    clear: both;
+}
+
+
+
+.l-heading{
+    font-size: 30px;
+}
+/* About us Padding */
+.py-1{ padding: 10px 0;}
+.py-2{ padding: 20px 0;}
+.py-3{ padding: 30px 0;}
+
+
+
+
+/* Show case style */
+#showcase {
+    background: url(../img/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg)  center center/cover; 
+    /* cover zurag buten haruulah */
+    height: 700px;
+}
+#showcase .showcase-content {
+    color:#fff;
+    text-align:center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em; 
+}
+/* Information section  */
+#hotel-info {
+    height: 600px;
+}
+#hotel-info .info-img{
+    float: left;
+    width: 50%;
+    background: url("/img/linus-mimietz-p3UWyaujtQo-unsplash.jpg")  center center/cover;
+    min-height: 100%;
+    
+}
+
+
+#hotel-info .info-text{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: justify;
+    padding: 100px 60px;
+    overflow:  hidden;
+    
+}
+.box{
+    color: #333;
+}
+/* Features */
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+.box i{
+    margin-bottom: 10px;
+}
+    /* About us  */
+   #about-info .info-right {
+       float:right;
+       width: 50%;
+       min-height: 100%;
+   }
+   #about-info .info-right img {
+      display: block;
+      margin: auto;
+      width: 85%;
+      border-radius: 45%
+   }  
+   #about-info .info-left   {
+       float: left;
+       width: 50%;
+       min-height: 100%;
+       
+   }
+    /* Comments */
+    #comments{
+        height: 100%;
+        background: url('/img/anmol-seth-hDbCjHNdF48-unsplash.jpg') no-repeat  center center/cover;
+        padding-top: 40px;
+    }
+
+    #comments h2 {
+        color: #fff;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    #comments .comment{
+        padding:20px;
+        margin-bottom: 40px;
+        border-radius: 15px;
+        opacity:0.9;
+        
+    }
+
+    #comments .comment img{
+        float: left;
+        width: 100px;
+        border-radius: 50%; 
+        margin-right: 20px;
+    }
+
+    /* Contact Form */
+    #contact-form .form-group{
+        margin-bottom: 20px;
+    }
+     
+    #contact-form label{
+        display: block;
+        margin-bottom: 5px;
+    }
+    #contact-form input,
+    #contact-form textarea{
+        width: 100%;
+        padding: 10px;
+        border: 1px #ddd solid;
+    }
+    #contact-form textarea{
+        height: 200px;
+    }
+
+    #contact-form input,
+    #contact-form textarea:focus{
+        outline: none;
+        border-color: #a19e9c;
+    }
+
+    #contact-info .box {
+        color: #f4f4f4;
+    }
+
+
+
+#main-footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+ 
+}
